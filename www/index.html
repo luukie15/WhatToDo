@@ -42,13 +42,60 @@
         <title>The what to do app</title>
     </head>
     <body>
-        <div data-role="page">
+        <div data-role="page" id="play">
             <div data-role="header" data-theme="b">
                 <h1>What to do?</h1> 
             </div>
             <div role="main" class="ui-content">
                 Welcome to the new what to do app.
                 <button class="start_challenge">Start!</button>
+            </div>
+            <div data-role="footer" data-position="fixed">        
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li><a href="#play" data-icon="home">Play</a></li>
+                        <li><a href="#about" data-icon="grid">About</a></li>
+                        <li><a href="#settings" data-icon="gear">Settings</a></li>
+                    </ul>
+                </div><!-- /navbar -->
+            </div><!-- /footer -->
+        </div>
+
+        <div data-role="page" id="about">
+            <div data-role="header" data-theme="b">
+                <h1>What to do?</h1> 
+            </div>
+            <div role="main" class="ui-content">
+                
+            </div>
+            <div data-role="footer" data-position="fixed">        
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li><a href="#play" data-icon="home">Play</a></li>
+                        <li><a href="#about" data-icon="grid">About</a></li>
+                        <li><a href="#settings" data-icon="gear">Settings</a></li>
+                    </ul>
+                </div><!-- /navbar -->
+            </div><!-- /footer -->
+        </div>
+
+        <div data-role="settings" id="settings">
+            <div data-role="header" data-theme="b">
+                <h1>What to do?</h1> 
+            </div>
+            <div role="main" class="ui-content">
+
+                <label for="alcoholic">Alcoholic drinks</label>
+                <select name="alcoholic" data-toggle="switchevent" id="alcoholic" data-role="slider">
+                    <option value="no">No</option>
+                    <option value="yes">Yes</option>
+                </select>
+                <label for="sugar">Sugar</label>
+                <select name="sugar" data-toggle="switchevent" id="sugar" data-role="slider">
+                    <option value="no">No</option>
+                    <option value="yes">Yes</option>
+                </select> 
+            
             </div>
             <div data-role="footer" data-position="fixed">        
                 <div data-role="navbar" data-iconpos="top">
