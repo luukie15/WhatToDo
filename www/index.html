@@ -44,13 +44,21 @@
     <body>
         <div data-role="page">
             <div data-role="header" data-theme="b">
-                <a href="index.html" class="open_settings_panel" data-icon="gear"></a> 
                 <h1>What to do?</h1> 
             </div>
             <div role="main" class="ui-content">
                 Welcome to the new what to do app.
                 <button class="start_challenge">Start!</button>
             </div>
+            <div data-role="footer" data-position="fixed">        
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li><a href="#play" data-icon="home">Play</a></li>
+                        <li><a href="#about" data-icon="grid">About</a></li>
+                        <li><a href="#settings" data-icon="gear">Settings</a></li>
+                    </ul>
+                </div><!-- /navbar -->
+            </div><!-- /footer -->
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
