@@ -10,7 +10,6 @@
     <description>The real what to do app</description>
     <author email="luuk-de-bruin@hotmail.com">Roel Coenen, Niels Coenen, Luuk de Bruin</author>
     <content src="index.html" />
-    <preference name="loadUrlTimeoutValue" value="60000" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
